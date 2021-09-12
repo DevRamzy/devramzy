@@ -303,9 +303,7 @@ strong {
 .dark-mode {
   background: #0c0c0d;
 }
-.dark-mode .navbar-brand {
-  background: url(/public/images/logo/8.png) no-repeat;
-}
+
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
 }
@@ -316,7 +314,7 @@ strong {
   background: #0c0c0d;
   border-bottom: 1px solid #1f1f1f;
 }
-.dark-mode .small-text {
+.dark-mode .navbar-collapse .small-text {
   background: #0d0c15;
   color: #ffffff;
 }
@@ -503,7 +501,7 @@ strong {
   }
 
   .color-mode {
-    display: none;
+    /* display: ; */
   }
 
   .about-image {
@@ -538,11 +536,18 @@ strong {
     padding-bottom: 20px;
   }
 
+  .dark-mode .navbar-collapse {
+    background-color: #0c0c0d98;
+    border: #f7f3f3;
+  }
   .navbar-expand-sm .navbar-nav .nav-link {
     padding: 3px 20px;
   }
 }
 @media (max-width: 580px) {
+  .navbar-brand img {
+    width: 12rem;
+  }
   .animated-info {
     min-width: 200px;
   }
@@ -568,6 +573,7 @@ strong {
     margin: 10px 0 0 0;
   }
 }
+
 @media (max-width: 320px) {
   .animated-text {
     margin-top: 0;
