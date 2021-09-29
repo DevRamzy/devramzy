@@ -463,6 +463,9 @@ strong {
   border: 0;
   cursor: pointer;
   transition: all 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .contact-form .submit-btn:hover {
   background: #474559;
